@@ -9,7 +9,8 @@ Three groups of countries were identified based on their patterns of correlation
 
 The script is meant to work on R programming language version 4.04 (https://www.R-project.org).
 The script has lines where it calls for data from open access repositories with files of sizes > 1 GB, which might take time, depending on your internet speed.
-Please note that some of the libraries mentioned for calling might not be needed.
+
+Please note that the script was initially meant for internal use only. The decision to make it open access was based on peer-review and editorial suggestion. Therefore, we have not adequately adapted our script for public use. For instance, some of the libraries called at the beginning of the script might not be really needed.
 
 **Important**
 - You would need to create empty subfolders for the script to export its needed files, namely, "/Export", "/Export/ResidMobil5a", "/Export/ResidMobil5b", "/Export/ScatterPlots5a", etc.
