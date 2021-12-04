@@ -13,7 +13,7 @@ The script has lines where it calls for data from open access repositories with 
 Please note that the script was initially meant for internal use only. The decision to make it open access was based on peer-review and editorial suggestion. Therefore, we have not adequately adapted our script for public use. For instance, some of the libraries called at the beginning of the script might not be really needed.
 
 **Important**
-- You would need to create empty subfolders for the script to export its needed files, namely, "/Export", "/Export/ResidMobil5a", "/Export/ResidMobil5b", "/Export/ScatterPlots5a", etc.
+- You would need to create empty subfolders for the script to export its outputs, namely, "/Export", "/Export/ResidMobil5a", "/Export/ResidMobil5b", "/Export/ScatterPlots5a", etc.
 - A colleague has done some small operations, outside of R environment, on the regional data such as removing very small US States. Please also find in this repository the files "usa2_infinitesimalStatesRemoved.csv" and "usa2_PuertoRicoOnly.csv", which you may need to run the R code.
 - Please cite our paper mentioned above if you use our script or a part of it.
 
