@@ -1,6 +1,6 @@
 # COVID-19-Rt-and-Mobility-Patterns
-In-Depth Correlation Analysis of SARS-CoV-2 Effective Reproduction Number with Mobility Patterns Identifies Three Groups of Countries
-Mounir Ould Setti & Sylvain Tollis
+## In-Depth Correlation Analysis of SARS-CoV-2 Effective Reproduction Number with Mobility Patterns Identifies Three Groups of Countries
+### Mounir Ould Setti & Sylvain Tollis
 
 This repository is meant to host the programming script used for the analysis of the study with the abovementioned title published by the Journal of Preventive Medicine and Public Health.
 
@@ -9,4 +9,12 @@ Three groups of countries were identified based on their patterns of correlation
 
 The script is meant to work on R programming language version 4.04 (https://www.R-project.org).
 The script has lines where it calls for data from open access repositories with files of sizes > 1 GB, which might take time, depending on your internet speed.
-**Important:** You would need to create empty subfolders for the script to export its needed files, namely, "/Export", "/Export/ResidMobil5a", "/Export/ResidMobil5b", "/Export/ScatterPlots5a", etc.
+Please note that some of the libraries mentioned for calling might not be needed.
+
+**Important**
+- You would need to create empty subfolders for the script to export its needed files, namely, "/Export", "/Export/ResidMobil5a", "/Export/ResidMobil5b", "/Export/ScatterPlots5a", etc.
+- A colleague has done some small operations, outside of R environment, on the regional data such as removing very small US States. Please also find in this repository the files "usa2_infinitesimalStatesRemoved.csv" and "usa2_PuertoRicoOnly.csv", which you may need to run the R code.
+- Please cite our paper mentioned above if you use our script or a part of it.
+
+
+
